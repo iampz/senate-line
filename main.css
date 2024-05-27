@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap');
 
 body {
+  padding: 0 10%;
   font-family: Sarabun, Arial, sans-serif;
   font-size: 14px;
   text-align: center;
@@ -18,12 +19,16 @@ h3 {
   font-size: 24px;
 }
 
+p {
+  color: #d095d1;
+}
+
 input {
   font-size: 18px;
 }
 
 #linkbtn {
-  margin: 10px;
+  margin: 40px 10px;
   padding: 15px 30px;
   text-align: center;
   text-transform: uppercase;
@@ -42,7 +47,6 @@ input {
   touch-action: manipulation;
   visibility: collapse;
   text-decoration: none;
-  margin-top: 50px;
   font-size: 18px;
 }
   #linkbtn:hover {
@@ -54,10 +58,16 @@ input {
     transform: scale(0.95);
   }
 
-/*
-footer p {
-  position: fixed;
-  bottom: 0;
-  margin-bottom: 15px;
+.update {
+  color: #9dd195;
 }
-*/
+
+.highlight {
+  font-weight: bold;
+  color: #a4e49a;
+}
+
+.alert {
+  color: #d33;
+}
+
