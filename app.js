@@ -4,6 +4,7 @@ const result = document.getElementById('result');
 jSuites.dropdown(input, {
   data: data,
   autocomplete: true,
+  placeholder: 'พิมพ์ชื่ออำเภอเพื่อค้นหา',
   width: '280px',
   onchange: (elem, obj) => {
     const val = obj.getValue();
